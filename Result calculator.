@@ -1,0 +1,26 @@
+Your_name = input ('What is your name? ')
+Your_level = input ('What level are you? ')
+CA_Score1 = int(input ('What is your first CA score? '))
+CA_Score2 = int(input ('What is your second CA score? '))
+Exam_score = int(input ('What is your exam score?'))
+Grammar_result = (CA_Score1 + CA_Score2 + Exam_score)
+print(Grammar_result)
+if Grammar_result > 0:
+    if (Grammar_result >= 70):
+        print('You have A in this course')
+    elif (Grammar_result >= 69):
+        print('You have B in this course')
+    elif (Grammar_result >= 59):
+        print('You have C in this course')
+    elif (Grammar_result >= 49):
+        print('You have D in this course')
+    elif (Grammar_result >= 44):
+        print('You have E in this course')
+    elif: (Grammar_result >= 39):
+        print('You have F in this course')
+    else:
+        print('Invalid entry')
+   
+    
+    
+    
